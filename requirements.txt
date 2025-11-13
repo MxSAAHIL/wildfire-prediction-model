@@ -1,0 +1,13 @@
+Flask
+scikit-learn
+pandas
+numpy
+matplotlib
+seaborn
+ipykernel
+jupyter
+notebook
+requests
+python-dotenv
+scipy
+openpyxl
