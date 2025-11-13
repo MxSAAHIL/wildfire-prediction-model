@@ -1,23 +1,29 @@
-🔥 Forest Fire FWI Prediction using Machine Learning
+# <p align="center">🔥 Forest Fire FWI Prediction</p>
 
-This project predicts the Forest Fire Weather Index (FWI) using a Ridge Regression machine learning model. By entering environmental and fire-behaviour parameters, the system estimates wildfire intensity and helps in early fire-risk assessment.
+<p align="center">
+A Machine Learning model that predicts the <b>Forest Fire Weather Index (FWI)</b> using environmental and fire-behaviour inputs.
+</p>
 
-📌 Project Overview
+<p align="center">
+  <img src="https://img.shields.io/badge/ML-Ridge%20Regression-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Framework-Flask-green?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge"/>
+</p>
 
-Wildfires are highly influenced by weather and fuel conditions. This project uses real forest-fire data and applies machine learning to predict the FWI, which indicates the potential spread and severity of forest fires.
-The model is deployed using a simple Flask interface for easy user interaction.
+---
 
-🧩 Features
+## 🔍 Overview
+This project estimates wildfire intensity by predicting the **FWI** from parameters like Temperature, RH, Wind Speed, Rain, FFMC, DMC, ISI, Classes, and Region.  
+A simple Flask UI allows users to input values and instantly view the predicted risk index.
 
-Predicts FWI (Forest Fire Weather Index)
+---
 
-Accepts key environmental inputs:
-Temperature, RH, Wind Speed (Ws), Rain, FFMC, DMC, ISI, Classes, Region
+## ⭐ Features
+- Predicts **FWI (Forest Fire Weather Index)**
+- Accepts key inputs: Temperature, RH, Ws, Rain, FFMC, DMC, ISI, Classes, Region  
+- Uses **Ridge Regression** for stable predictions  
+- Includes **data preprocessing with scaling**  
+- Clean and user-friendly **web interface**
 
-Uses Ridge Regression for stable and accurate predictions
+---
 
-Includes data preprocessing with scaling
-
-User-friendly web interface for entering values
-
-Ready for deployment on Render or local server
